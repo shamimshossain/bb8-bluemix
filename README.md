@@ -1,5 +1,9 @@
 # Sample code to control a BB-8 Droid from anywhere in the world
 
+![alt text](images/bb-8.jpg "Star Wars BB-8")
+
+Suppose your Star Wars BB-8 droid is in Melbourne and you are in San Francisco. You are controlling the BB-8 from an internet browser from San Francisco!! Wouldn't it be nice?
+
 This is a sample project to control a BB-8 Droid
 using MQTT, the [IBM internet of Things Foundation](http://www.ibm.com/cloud-computing/bluemix/solutions/iot/), and the [sphero.js](https://github.com/orbotix/sphero.js),
 . This project also uses the MQTT wrapper from the [parrot-sample](https://github.com/IBM-Bluemix/parrot-sample).
@@ -43,7 +47,7 @@ From IoTF Dashboard, perform the following tasks.
 
 At the completion of these steps you will see information about the device you registered.  Make note of the auth-token field as you will need that to run the sample.
 
-** The IoTF service can not retrieve these authentication details for you later. So make sure to store these in a secure place **
+**The IoTF service can not retrieve these authentication details for you later. So make sure to store these in a secure place**
 
 Next get API keys for your application.
 
@@ -53,7 +57,7 @@ Next get API keys for your application.
 
 Take note of the Key and the Auth Token as you will need these to run the sample.
 
-** The IoTF service can not retrieve these authentication details for you later. So make sure to store these in a secure place **
+**The IoTF service can not retrieve these authentication details for you later. So make sure to store these in a secure place**
 
 In the root of the repository you cloned you will find a file named `sphero-config.properties`.  Following is the content of the properties file.
 
